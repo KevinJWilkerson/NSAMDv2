@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/images/logos/NSAMD.jpg";
 
 function Home() {
   return (
