@@ -3,7 +3,17 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 import { Navigation, Footer, Home } from "./components";
+import {
+  Team,
+  Reichman,
+  Rich,
+  Maughan,
+  House,
+  Yoon,
+  Wilkerson,
+} from "./components/Physicians";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
@@ -11,6 +21,13 @@ ReactDOM.render(
     <Navigation />
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/Team" element={<Team />} />
+      <Route path="/Reichman" element={<Reichman />} />
+      <Route path="/Rich" element={<Rich />} />
+      <Route path="/Maughan" element={<Maughan />} />
+      <Route path="/House" element={<House />} />
+      <Route path="/Yoon" element={<Yoon />} />
+      <Route path="/Wilkerson" element={<Wilkerson />} />
     </Routes>
     <Footer />
   </Router>,

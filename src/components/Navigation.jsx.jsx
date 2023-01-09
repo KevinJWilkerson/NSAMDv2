@@ -19,27 +19,27 @@ function Navigation() {
               </NavLink>
             </li>
             <li className="nav-item dropdown">
-              <NavLink className="nav-link dropdown" to="/physicians">
-                Physicians
+              <NavLink className="nav-link dropdown" to="/Team">
+                Our Team
               </NavLink>
               <div className="dropdown-content">
                 <li className="phys-1">
-                  <NavLink to="/reichman">Mark V. Reichman, MD</NavLink>
+                  <NavLink to="/Reichman">Mark V. Reichman, MD</NavLink>
                 </li>
                 <li className="phys-2">
-                  <NavLink to="/rich">Charles C. Rich, MD</NavLink>
+                  <NavLink to="/Rich">Charles C. Rich, MD</NavLink>
                 </li>
                 <li className="phys-3">
-                  <NavLink to="/maughan">Peter H. Maughan, MD</NavLink>
+                  <NavLink to="/Maughan">Peter H. Maughan, MD</NavLink>
                 </li>
                 <li className="phys-4">
-                  <NavLink to="/house">Paul A. House, MD</NavLink>
+                  <NavLink to="/House">Paul A. House, MD</NavLink>
                 </li>
                 <li className="phys-5">
-                  <NavLink to="/yoon">Nam K. Yoon, MD</NavLink>
+                  <NavLink to="/Yoon">Nam K. Yoon, MD</NavLink>
                 </li>
                 <li className="phys-6">
-                  <NavLink to="/wilkerson">
+                  <NavLink to="/Wilkerson">
                     Christopher G. Wilkerson, MD
                   </NavLink>
                 </li>
@@ -57,10 +57,18 @@ function Navigation() {
                 </li>
               </div>
             </li>
-            <li className="nav-item">
+            <li className="nav-item dropdown">
               <NavLink className="nav-link" to="/resources">
                 Resources
               </NavLink>
+              <div className="dropdown-content">
+                <li className="phys-1">
+                  <NavLink to="/">New Patients</NavLink>
+                </li>
+                <li className="phys-1">
+                  <NavLink to="/">Patient Refferal</NavLink>
+                </li>
+              </div>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/patient-portal">

@@ -119,7 +119,6 @@ a:hover {
 
 .container {
   width: 85%;
-  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -197,31 +196,36 @@ a:hover {
   cursor: pointer;
 }
 
+.page-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
 /* Navigation Styles Start */
 
 .navigation {
-  height: 75px;
+  height: 100px;
   max-height: 10vw;
   justify-content: space-between;
-  margin-left: 0px;
-  margin-right: 0px;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 1px solid black;
   width: 100vw;
+  display: flex;
+  width: 100%;
 }
 
 .logo {
   height: 70px;
   margin-left: 0px;
-  padding: 10px 0px 0px 10px;
 }
 
 .logo-container {
   padding-right: 2vw;
-}
-
-.navigation {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
 }
 
 .nav-bar {
@@ -254,6 +258,7 @@ a:hover {
   text-align: flex-start;
   margin-left: 15px;
   width: 100%;
+  font-size: 100%;
 }
 
 .nav-item a {
@@ -267,7 +272,6 @@ a:hover {
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 74px;
   width: fit-content;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 9999;
@@ -343,4 +347,323 @@ a:hover {
   animation: scaleZ 600ms ease-in-out forwards;
 }
 
-/* Navigation Styles Start */
+/* Navigation Styles End */
+
+/* Home Classes Start */
+
+/* Hero Classes Start */
+
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero img {
+  object-fit: cover;
+  object-position: 50% 90%;
+  width: 100%;
+  height: auto;
+  max-height: 35vh;
+  filter: brightness(70%);
+}
+
+.hero p {
+  background-color: rgba(0, 0, 0, 0.35);
+  color: var(--light);
+  padding: 1.5vw 1.5vw;
+  border: 1px solid var(--light);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 50%;
+  font-size: 1.25em;
+}
+
+/* Hero Classes End */
+
+/* Carousel Classes Start */
+
+.carousel {
+  overflow: hidden;
+}
+
+.inner {
+  margin-top: 20px;
+  white-space: nowrap;
+  transition: transform 0.3s;
+  width: 50%;
+}
+
+.carousel-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  color: var(--dark);
+}
+
+.indicators {
+  display: flex;
+  justify-content: center;
+}
+
+.indicators > button {
+  margin: 5px;
+}
+
+.indicators > button.active {
+  font-weight: bolder;
+  color: var(--dark);
+}
+
+.carousel-button {
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  border: none;
+}
+
+.active-carousel-button {
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  border: none;
+  background-color: var(--primary);
+}
+
+.headshot {
+  height: 100%;
+}
+
+.bio {
+  width: 50%;
+  margin-left: 1em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bio h3 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.bio p {
+  white-space: initial;
+}
+
+.speciality {
+  max-width: 10px;
+}
+
+/* Carousel Classes End */
+
+/* Info Classes Start */
+
+.info {
+  height: fit-content;
+  background-color: rgb(235, 235, 235);
+  margin: 15px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.info p {
+  margin: 15px;
+}
+
+.conditions {
+  width: 40%;
+  font-size: 0.9em;
+}
+
+.conditions ul li {
+  list-style: circle;
+}
+
+/* Info Classes End */
+
+/* Contact Classes Start */
+
+.contact {
+  background-color: var(--light);
+}
+
+.contact h2 {
+  color: var(--light);
+  border-color: var(--primary);
+}
+
+.contact-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+.contact-info > * {
+  flex: 1;
+  margin: 15px;
+}
+
+.contact-info iframe {
+  height: 400px;
+}
+
+.contact-info div {
+  color: var(dark);
+}
+
+.contact-info h3 {
+  color: var(dark);
+  font-size: 32px;
+}
+
+.contact-info p,
+.contact-info address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid var(dark);
+  border-radius: 10px;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: var(dark);
+  background-color: rgba(255, 255, 255, 0.75);
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  background-color: rgba(255, 255, 255, 1);
+  outline: none;
+}
+
+.contact-form button {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
+}
+
+.contact-form button:hover {
+  color: var(--primary-color);
+  background: var(--tertiary-color);
+}
+
+.contact-info a {
+  color: var(--primary-color);
+}
+
+/* Contact Classes End */
+
+/* Footer Classes Start */
+
+.footer {
+  margin-top: 15px;
+  border-top: 1px solid black;
+  padding-top: 10px;
+  justify-content: space-around;
+}
+
+.footer p {
+  width: fit-content;
+}
+
+/* Footer Classes End */
+
+/* Team Classes Start */
+
+.team-content {
+  margin-top: 2.5vw;
+  margin-bottom: 5vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-content > div:first-child {
+  flex: 1 0 100%;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 100%;
+}
+
+.team-card {
+  display: flex;
+  flex-wrap: wrap;
+  block-size: fit-content;
+  width: 18vw;
+  margin-bottom: 15px;
+}
+
+.team-card img {
+  width: 100%;
+}
+
+.headshot-container {
+  height: 25vw;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.team-name {
+  width: 100%;
+  color: var(--dark);
+}
+
+.team-name:hover {
+  color: var(--secondary);
+  text-decoration: underline;
+}
+
+.team-role {
+  font-size: 1.5em;
+}
+
+/* Team Classes End */
+
+/* Physician Classes Start */
+
+.physician-content {
+  margin-top: 2.5vw;
+  margin-bottom: 5vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.physician-page-headshot-container {
+  width: 33vw;
+}
+
+.physician-headshot {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.physician-headshot + div {
+  flex: 1;
+  position: relative;
+  float: left;
+  margin-right: 1em;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/* Physician Classes End */
