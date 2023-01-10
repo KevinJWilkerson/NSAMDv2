@@ -13,6 +13,7 @@ import {
   InsuranceInfo,
   InstructionsFacilities,
   PostOp,
+  MedicalRecords,
 } from "./components";
 import {
   Team,
@@ -45,6 +46,7 @@ ReactDOM.render(
         element={<InstructionsFacilities />}
       />
       <Route path="/Post-Operative-Instructions" element={<PostOp />} />
+      <Route path="/Medical-Records" element={<MedicalRecords />} />
     </Routes>
     <Footer />
   </Router>,
