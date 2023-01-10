@@ -58,7 +58,7 @@ function Navigation() {
               </div>
             </li>
             <li className="nav-item dropdown">
-              <NavLink className="nav-link" to="/resources">
+              <NavLink className="nav-link" to="/">
                 Resources
               </NavLink>
               <div className="dropdown-content">
