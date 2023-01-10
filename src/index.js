@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import * as serviceWorker from "./serviceWorker";
+// import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import {
@@ -10,6 +10,7 @@ import {
   Home,
   NewPatients,
   PatientReferral,
+  InsuranceInfo,
 } from "./components";
 import {
   Team,
@@ -36,6 +37,7 @@ ReactDOM.render(
       <Route path="/Wilkerson" element={<Wilkerson />} />
       <Route path="/New-Patients" element={<NewPatients />} />
       <Route path="/Patient-Referral" element={<PatientReferral />} />
+      <Route path="/Insurance-Information" element={<InsuranceInfo />} />
     </Routes>
     <Footer />
   </Router>,
@@ -48,4 +50,4 @@ ReactDOM.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 // reportWebVitals();
 
-serviceWorker.unregister();
+// serviceWorker.unregister();
