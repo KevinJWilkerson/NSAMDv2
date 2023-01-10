@@ -88,14 +88,20 @@ function Navigation() {
                 </li>
               </div>
             </li>
-            <li className="nav-item">
-              <a
-                className="nav-link"
-                href="https://www.myhealthrecord.com/"
-                target="blank"
-              >
-                Patient Portal
-              </a>
+            <li className="nav-item dropdown">
+              <NavLink className="nav-link" to="/">
+                Current Patients
+              </NavLink>
+              <div className="dropdown-content">
+                <li className="phys-1">
+                  <a href="https://www.myhealthrecord.com/">Patient Portal</a>
+                </li>
+                <li className="phys-2">
+                  <a href="https://mypay.poscorp.com/nsamd#/account/login">
+                    Online Payments
+                  </a>
+                </li>
+              </div>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/contact">
