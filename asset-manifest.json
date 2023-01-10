@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/NSAMDv2/static/css/main.24c0d1fb.css",
-    "main.js": "/NSAMDv2/static/js/main.b97e0a35.js",
+    "main.css": "/NSAMDv2/static/css/main.09fb689a.css",
+    "main.js": "/NSAMDv2/static/js/main.e0bb3cde.js",
     "static/media/murray_office.pdf": "/NSAMDv2/static/media/murray_office.bb1e068a37902847cd7c.pdf",
     "static/media/newpatientpaperworkletterformurray06.16.22.pdf": "/NSAMDv2/static/media/newpatientpaperworkletterformurray06.16.22.7e49ff7ef79944cf1f74.pdf",
     "static/media/6.jpg": "/NSAMDv2/static/media/6.57ebc9941f4d7058115c.jpg",
     "static/media/newpatientpaperworkspineupdate062821.pdf": "/NSAMDv2/static/media/newpatientpaperworkspineupdate062821.dc65de415e9ef37f3656.pdf",
     "static/media/newpatientpaperworkbrainupdate062821.pdf": "/NSAMDv2/static/media/newpatientpaperworkbrainupdate062821.badfe03a1de1b0cc3371.pdf",
+    "static/media/st.marks map for surgery patients.pdf": "/NSAMDv2/static/media/st.marks map for surgery patients.1ad009b7dc6a373df7bb.pdf",
     "static/media/newpatientpaperworkletterforparkcity06.16.22.pdf": "/NSAMDv2/static/media/newpatientpaperworkletterforparkcity06.16.22.7813161c81eecc50a29a.pdf",
     "static/media/pcmcparkingmap050517.pdf": "/NSAMDv2/static/media/pcmcparkingmap050517.f44ebcac1641c4653b45.pdf",
     "static/media/mri-review-form-06.07.22.pdf": "/NSAMDv2/static/media/mri-review-form-06.07.22.b03704302bf142e838ff.pdf",
     "static/media/Quattrocento-Bold.ttf": "/NSAMDv2/static/media/Quattrocento-Bold.ed26827e1ecdb8a9bf3e.ttf",
     "static/media/Quattrocento-Regular.ttf": "/NSAMDv2/static/media/Quattrocento-Regular.3d1b0443d0ee295dc542.ttf",
+    "static/media/stmarkspreanesthesiaform091819.pdf": "/NSAMDv2/static/media/stmarkspreanesthesiaform091819.2253e252f03953401c20.pdf",
     "static/media/hipaanoticeofprivacypracticesnsa04.16.18.pdf": "/NSAMDv2/static/media/hipaanoticeofprivacypracticesnsa04.16.18.1635c649d800595eef05.pdf",
+    "static/media/park city pre-operative instructions 9.20.13.pdf": "/NSAMDv2/static/media/park city pre-operative instructions 9.20.13.1cbf8acb1137a069bbb0.pdf",
     "static/media/neuroconsultorreferralform061622.pdf": "/NSAMDv2/static/media/neuroconsultorreferralform061622.04e090782e7062567f55.pdf",
+    "static/media/imcpreoperativeinstructionsandmap 09.18.19.pdf": "/NSAMDv2/static/media/imcpreoperativeinstructionsandmap 09.18.19.83fbd672d85bf0f6fae7.pdf",
     "static/media/hero.webp": "/NSAMDv2/static/media/hero.5b0d5854097c83d78272.webp",
     "static/media/2.jpg": "/NSAMDv2/static/media/2.63379adbbd3beb478dfc.jpg",
     "static/media/paymentpolicyletter09.11.19.pdf": "/NSAMDv2/static/media/paymentpolicyletter09.11.19.b21296f87567da032166.pdf",
@@ -24,11 +28,11 @@
     "static/media/NSAMD.jpg": "/NSAMDv2/static/media/NSAMD.e954d8dc5dbadefc8fb6.jpg",
     "static/media/4.jpg": "/NSAMDv2/static/media/4.2f912fd493397cde0d7d.jpg",
     "index.html": "/NSAMDv2/index.html",
-    "main.24c0d1fb.css.map": "/NSAMDv2/static/css/main.24c0d1fb.css.map",
-    "main.b97e0a35.js.map": "/NSAMDv2/static/js/main.b97e0a35.js.map"
+    "main.09fb689a.css.map": "/NSAMDv2/static/css/main.09fb689a.css.map",
+    "main.e0bb3cde.js.map": "/NSAMDv2/static/js/main.e0bb3cde.js.map"
   },
   "entrypoints": [
-    "static/css/main.24c0d1fb.css",
-    "static/js/main.b97e0a35.js"
+    "static/css/main.09fb689a.css",
+    "static/js/main.e0bb3cde.js"
   ]
 }
