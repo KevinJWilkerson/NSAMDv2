@@ -667,3 +667,12 @@ a:hover {
 }
 
 /* Physician Classes End */
+
+/* Surgical Instructions & Facilities Classes Start */
+
+.facility-iframe {
+  margin-right: 1em;
+  margin-bottom: 2em;
+}
+
+/* Surgical Instructions & Facilities Classes End */

@@ -63,18 +63,20 @@ function Navigation() {
               </NavLink>
               <div className="dropdown-content">
                 <li className="phys-1">
-                  <NavLink to="/new-patients">New Patients</NavLink>
+                  <NavLink to="/New-Patients">New Patients</NavLink>
                 </li>
                 <li className="phys-2">
-                  <NavLink to="/patient-referral">Patient Refferal</NavLink>
+                  <NavLink to="/Patient-Referral">Patient Refferal</NavLink>
                 </li>
                 <li className="phys-3">
-                  <NavLink to="/insurance-information">
+                  <NavLink to="/Insurance-Information">
                     Insurance Information
                   </NavLink>
                 </li>
                 <li className="phys-4">
-                  <NavLink to="/">Surgical Instructions and Facilities</NavLink>
+                  <NavLink to="/Instructions-&-Facilities">
+                    Surgical Instructions and Facilities
+                  </NavLink>
                 </li>
                 <li className="phys-5">
                   <NavLink to="/">Post Operative Instructions</NavLink>
