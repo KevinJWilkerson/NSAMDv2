@@ -23,6 +23,10 @@ import {
   House,
   Yoon,
   Wilkerson,
+  Kotter,
+  Passey,
+  Cushing,
+  Jackson,
 } from "./components/Physicians";
 import reportWebVitals from "./reportWebVitals";
 
@@ -38,6 +42,10 @@ ReactDOM.render(
       <Route path="/House" element={<House />} />
       <Route path="/Yoon" element={<Yoon />} />
       <Route path="/Wilkerson" element={<Wilkerson />} />
+      <Route path="/Kotter" element={<Kotter />} />
+      <Route path="/Passey" element={<Passey />} />
+      <Route path="/Cushing" element={<Cushing />} />
+      <Route path="/Jackson" element={<Jackson />} />
       <Route path="/New-Patients" element={<NewPatients />} />
       <Route path="/Patient-Referral" element={<PatientReferral />} />
       <Route path="/Insurance-Information" element={<InsuranceInfo />} />
