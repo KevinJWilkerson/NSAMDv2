@@ -11,6 +11,7 @@ import {
   NewPatients,
   PatientReferral,
   InsuranceInfo,
+  InstructionsFacilities,
 } from "./components";
 import {
   Team,
@@ -38,6 +39,10 @@ ReactDOM.render(
       <Route path="/New-Patients" element={<NewPatients />} />
       <Route path="/Patient-Referral" element={<PatientReferral />} />
       <Route path="/Insurance-Information" element={<InsuranceInfo />} />
+      <Route
+        path="/Instructions-&-Facilities"
+        element={<InstructionsFacilities />}
+      />
     </Routes>
     <Footer />
   </Router>,
