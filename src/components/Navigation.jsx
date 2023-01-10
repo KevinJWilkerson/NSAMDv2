@@ -66,7 +66,7 @@ function Navigation() {
                   <NavLink to="/New-Patients">New Patients</NavLink>
                 </li>
                 <li className="phys-2">
-                  <NavLink to="/Patient-Referral">Patient Refferal</NavLink>
+                  <NavLink to="/Patient-Referral">Patient Referral</NavLink>
                 </li>
                 <li className="phys-3">
                   <NavLink to="/Insurance-Information">
