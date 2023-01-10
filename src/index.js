@@ -4,7 +4,7 @@ import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import { Navigation, Footer, Home } from "./components";
+import { Navigation, Footer, Home, NewPatients } from "./components";
 import {
   Team,
   Reichman,
@@ -28,6 +28,7 @@ ReactDOM.render(
       <Route path="/House" element={<House />} />
       <Route path="/Yoon" element={<Yoon />} />
       <Route path="/Wilkerson" element={<Wilkerson />} />
+      <Route path="/New-Patients" element={<NewPatients />} />
     </Routes>
     <Footer />
   </Router>,
