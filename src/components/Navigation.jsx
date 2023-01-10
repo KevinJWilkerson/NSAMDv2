@@ -89,9 +89,13 @@ function Navigation() {
               </div>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/patient-portal">
+              <a
+                className="nav-link"
+                href="https://www.myhealthrecord.com/"
+                target="blank"
+              >
                 Patient Portal
-              </NavLink>
+              </a>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/contact">
