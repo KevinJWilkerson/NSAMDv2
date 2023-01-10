@@ -12,6 +12,7 @@ import {
   PatientReferral,
   InsuranceInfo,
   InstructionsFacilities,
+  PostOp,
 } from "./components";
 import {
   Team,
@@ -43,6 +44,7 @@ ReactDOM.render(
         path="/Instructions-&-Facilities"
         element={<InstructionsFacilities />}
       />
+      <Route path="/Post-Operative-Instructions" element={<PostOp />} />
     </Routes>
     <Footer />
   </Router>,

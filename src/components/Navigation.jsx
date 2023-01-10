@@ -79,7 +79,9 @@ function Navigation() {
                   </NavLink>
                 </li>
                 <li className="phys-5">
-                  <NavLink to="/">Post Operative Instructions</NavLink>
+                  <NavLink to="/Post-Operative-Instructions">
+                    Post Operative Instructions
+                  </NavLink>
                 </li>
                 <li className="phys-6">
                   <NavLink to="/">Medical Records</NavLink>

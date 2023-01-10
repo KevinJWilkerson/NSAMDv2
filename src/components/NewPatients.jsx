@@ -17,7 +17,6 @@ function NewPatients() {
       <div className="page-title">
         <h1>New Patient Resources</h1>
       </div>
-      <div className="physician-page-headshot-container"></div>
       <div className="physician-bio">
         <h2>New Patient Appointments</h2>
         <p>
