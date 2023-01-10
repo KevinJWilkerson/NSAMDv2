@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NSAMDv2/static/css/main.09fb689a.css",
-    "main.js": "/NSAMDv2/static/js/main.e0bb3cde.js",
+    "main.js": "/NSAMDv2/static/js/main.6fbd5ed6.js",
     "static/media/murray_office.pdf": "/NSAMDv2/static/media/murray_office.bb1e068a37902847cd7c.pdf",
     "static/media/newpatientpaperworkletterformurray06.16.22.pdf": "/NSAMDv2/static/media/newpatientpaperworkletterformurray06.16.22.7e49ff7ef79944cf1f74.pdf",
     "static/media/6.jpg": "/NSAMDv2/static/media/6.57ebc9941f4d7058115c.jpg",
@@ -20,19 +20,32 @@
     "static/media/imcpreoperativeinstructionsandmap 09.18.19.pdf": "/NSAMDv2/static/media/imcpreoperativeinstructionsandmap 09.18.19.83fbd672d85bf0f6fae7.pdf",
     "static/media/hero.webp": "/NSAMDv2/static/media/hero.5b0d5854097c83d78272.webp",
     "static/media/2.jpg": "/NSAMDv2/static/media/2.63379adbbd3beb478dfc.jpg",
+    "static/media/surgeryupdated-phm-acdf-instructions07.17.17.pdf": "/NSAMDv2/static/media/surgeryupdated-phm-acdf-instructions07.17.17.dc7b3c239ceed5c978e9.pdf",
+    "static/media/surgeryupdated-phm-lumbarlaminectomydischargeinstru9.13.17.pdf": "/NSAMDv2/static/media/surgeryupdated-phm-lumbarlaminectomydischargeinstru9.13.17.164838f237e49e748fa6.pdf",
     "static/media/paymentpolicyletter09.11.19.pdf": "/NSAMDv2/static/media/paymentpolicyletter09.11.19.b21296f87567da032166.pdf",
+    "static/media/surgeryupdated-phm-vpshuntdischargeinstru8.7.17.pdf": "/NSAMDv2/static/media/surgeryupdated-phm-vpshuntdischargeinstru8.7.17.fbce1081b037713a8709.pdf",
     "static/media/1.jpg": "/NSAMDv2/static/media/1.72820196b908cd62a8b5.jpg",
+    "static/media/surgeryupdated-phm-lumbarmicrodiscdischargeinstru03.14.19.pdf": "/NSAMDv2/static/media/surgeryupdated-phm-lumbarmicrodiscdischargeinstru03.14.19.dea3c4d71ba96e486d54.pdf",
+    "static/media/surgeryupdated-phm-chiaridischargeinstruc08.07.17.pdf": "/NSAMDv2/static/media/surgeryupdated-phm-chiaridischargeinstruc08.07.17.a0480331a26a39222554.pdf",
+    "static/media/surgeryupdated-phm-removalofpituitarytumordischargeinstruc06.06.12.pdf": "/NSAMDv2/static/media/surgeryupdated-phm-removalofpituitarytumordischargeinstruc06.06.12.e4c14f9edbc1dded68e5.pdf",
+    "static/media/surgeryupdated-phm-acdwithartificialdisc03.28.19.pdf": "/NSAMDv2/static/media/surgeryupdated-phm-acdwithartificialdisc03.28.19.55c6e908ee226a8fc90c.pdf",
+    "static/media/surgeryupdated-phm-posteriorcervicalfusiondishargeinstruc06.06.12.pdf": "/NSAMDv2/static/media/surgeryupdated-phm-posteriorcervicalfusiondishargeinstruc06.06.12.6443fb80accd2e0be045.pdf",
+    "static/media/surgeryupdated-phm-posteriorspinalfusiondischargeinstruc03.22.19.pdf": "/NSAMDv2/static/media/surgeryupdated-phm-posteriorspinalfusiondischargeinstruc03.22.19.8347dac267fb18f57737.pdf",
+    "static/media/surgeryupdated-phm-cranidischargeinstructions08.07.17.pdf": "/NSAMDv2/static/media/surgeryupdated-phm-cranidischargeinstructions08.07.17.e2233ab7bba9c118a09a.pdf",
+    "static/media/mvr_postop_acdf.pdf": "/NSAMDv2/static/media/mvr_postop_acdf.a46af7588861e26d04d9.pdf",
     "static/media/3.jpg": "/NSAMDv2/static/media/3.bdc2ea3e775e77f51721.jpg",
+    "static/media/mvr_postop_lumbardiscectomy.pdf": "/NSAMDv2/static/media/mvr_postop_lumbardiscectomy.64ac4a53f4a2d4a49f28.pdf",
+    "static/media/mvr_postop_crani.pdf": "/NSAMDv2/static/media/mvr_postop_crani.2b1f7b09e08f0cf90c1a.pdf",
     "static/media/5.jpg": "/NSAMDv2/static/media/5.09baca994410a0327bf7.jpg",
     "static/media/Surgery-Blood-Thinning-Medications-1.12.15.pdf": "/NSAMDv2/static/media/Surgery-Blood-Thinning-Medications-1.12.15.1b1e580e8efad1a55ab7.pdf",
     "static/media/NSAMD.jpg": "/NSAMDv2/static/media/NSAMD.e954d8dc5dbadefc8fb6.jpg",
     "static/media/4.jpg": "/NSAMDv2/static/media/4.2f912fd493397cde0d7d.jpg",
     "index.html": "/NSAMDv2/index.html",
     "main.09fb689a.css.map": "/NSAMDv2/static/css/main.09fb689a.css.map",
-    "main.e0bb3cde.js.map": "/NSAMDv2/static/js/main.e0bb3cde.js.map"
+    "main.6fbd5ed6.js.map": "/NSAMDv2/static/js/main.6fbd5ed6.js.map"
   },
   "entrypoints": [
     "static/css/main.09fb689a.css",
-    "static/js/main.e0bb3cde.js"
+    "static/js/main.6fbd5ed6.js"
   ]
 }
