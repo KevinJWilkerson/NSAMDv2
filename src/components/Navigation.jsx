@@ -69,12 +69,12 @@ function Navigation() {
                   <NavLink to="/patient-referral">Patient Refferal</NavLink>
                 </li>
                 <li className="phys-3">
-                  <NavLink to="/">Insurance Information</NavLink>
+                  <NavLink to="/insurance-information">
+                    Insurance Information
+                  </NavLink>
                 </li>
                 <li className="phys-4">
-                  <NavLink to="/insurance-information">
-                    Surgical Instructions and Facilities
-                  </NavLink>
+                  <NavLink to="/">Surgical Instructions and Facilities</NavLink>
                 </li>
                 <li className="phys-5">
                   <NavLink to="/">Post Operative Instructions</NavLink>
