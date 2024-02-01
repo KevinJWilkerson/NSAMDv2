@@ -1,4 +1,4 @@
-export { default as Navigation } from "./Navigation.jsx";
+export { default as NavBar } from "./NavBar/NavBar";
 export { default as Footer } from "./Footer";
 export { default as Home } from "./Home";
 export { default as NewPatients } from "./NewPatients";
@@ -7,3 +7,6 @@ export { default as InsuranceInfo } from "./InsuranceInfo";
 export { default as InstructionsFacilities } from "./InstructionsFacilities";
 export { default as PostOp } from "./PostOp";
 export { default as MedicalRecords } from "./MedicalRecords";
+export { default as FinancialNotices } from "./FinancialNotices";
+export { default as Appointments } from "./Appointments";
+export { default as FormsInfo } from "./FormsInfo";

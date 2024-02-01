@@ -26,8 +26,8 @@ function Home() {
           <div className="bio">
             <h3 className="name">Mark V. Reichman, MD</h3>
             <p className="specialty">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
-              deleniti minima molestias.
+              Specializes in skull base tumors, open vascular diseases and
+              degenerative spine conditions.
             </p>
           </div>
         </CarouselItem>
@@ -36,8 +36,7 @@ function Home() {
           <div className="bio">
             <h3 className="name">Charles C. Rich, MD</h3>
             <p className="specialty">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
-              deleniti minima molestias.
+              Specializes in degenerative spine conditions and brain tumors.
             </p>
           </div>
         </CarouselItem>
@@ -46,8 +45,8 @@ function Home() {
           <div className="bio">
             <h3 className="name">Peter H. Maughan, MD</h3>
             <p className="specialty">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
-              deleniti minima molestias.
+              Specializes in complex spine tumors, brain tumors, and skull base
+              tumors.
             </p>
           </div>
         </CarouselItem>
@@ -56,8 +55,8 @@ function Home() {
           <div className="bio">
             <h3 className="name">Paul A. House, MD</h3>
             <p className="specialty">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
-              deleniti minima molestias.
+              Specializes in Epilepsy surgery, deep brain stimulation, brain
+              tumors, and degenerative spine conditions.
             </p>
           </div>
         </CarouselItem>
@@ -66,8 +65,8 @@ function Home() {
           <div className="bio">
             <h3 className="name">Nam K. Yoon, MD</h3>
             <p className="specialty">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
-              deleniti minima molestias.
+              Specializes in open and endovascular procedures, skull base
+              tumors, and degenerative spine conditions.
             </p>
           </div>
         </CarouselItem>
@@ -76,8 +75,8 @@ function Home() {
           <div className="bio">
             <h3 className="name">Christopher G. Wilkerson, MD</h3>
             <p className="specialty">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
-              deleniti minima molestias.
+              Specializes in complex spinal deformity, spine and brain tumors,
+              and minimally invasive spine procedures.
             </p>
           </div>
         </CarouselItem>
@@ -131,7 +130,8 @@ function Home() {
               Building #1, Suite 950 <br />
               Murray, Utah 84107 <br />
               P: (801) 507-9555 <br />
-              E: <a href="mailto:info@nsamd.io">info@nsamd.io</a>
+              F: (801) 507-9550 <br />
+              E: <a href="mailto:forms@nsamd.io">forms@nsamd.com</a>
             </address>
           </div>
           <div className="contact-form">

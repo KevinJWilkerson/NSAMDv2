@@ -100,10 +100,10 @@ function Team() {
           <div className="headshot-container">
             <img src="" className="team-headshot"></img>
           </div>
-          <Link to="/Jackson" className="team-name">
-            <h2>Karissa Jackson</h2>
+          <Link to="/Castle" className="team-name">
+            <h2>Bronwynne Castle</h2>
           </Link>
-          <h3 className="team-role">Acute Care Nurse Practitioner</h3>
+          <h3 className="team-role">Nurse Practitioner</h3>
         </div>
       </div>
     </div>

@@ -4,8 +4,8 @@ import "./index.css";
 // import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
+import NavBar from "./components/NavBar/NavBar";
 import {
-  Navigation,
   Footer,
   Home,
   NewPatients,
@@ -14,6 +14,9 @@ import {
   InstructionsFacilities,
   PostOp,
   MedicalRecords,
+  FinancialNotices,
+  Appointments,
+  FormsInfo,
 } from "./components";
 import {
   Team,
@@ -26,13 +29,13 @@ import {
   Kotter,
   Passey,
   Cushing,
-  Jackson,
+  Castle,
 } from "./components/Physicians";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <Router>
-    <Navigation />
+    <NavBar />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/Team" element={<Team />} />
@@ -45,7 +48,7 @@ ReactDOM.render(
       <Route path="/Kotter" element={<Kotter />} />
       <Route path="/Passey" element={<Passey />} />
       <Route path="/Cushing" element={<Cushing />} />
-      <Route path="/Jackson" element={<Jackson />} />
+      <Route path="/Castle" element={<Castle />} />
       <Route path="/New-Patients" element={<NewPatients />} />
       <Route path="/Patient-Referral" element={<PatientReferral />} />
       <Route path="/Insurance-Information" element={<InsuranceInfo />} />
@@ -55,6 +58,9 @@ ReactDOM.render(
       />
       <Route path="/Post-Operative-Instructions" element={<PostOp />} />
       <Route path="/Medical-Records" element={<MedicalRecords />} />
+      <Route path="/Financial-Notices" element={<FinancialNotices />} />
+      <Route path="/Appointments" element={<Appointments />} />
+      <Route path="/Forms-Info" element={<FormsInfo />} />
     </Routes>
     <Footer />
   </Router>,

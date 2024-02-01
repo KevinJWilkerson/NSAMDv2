@@ -206,14 +206,25 @@ a:hover {
 
 /* Navigation Styles Start */
 
+.NavBar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+}
+
 .navigation {
   height: 100px;
   max-height: 10vw;
-  justify-content: space-between;
   align-items: center;
+  justify-content: flex-end;
   margin-left: 10px;
   margin-right: 10px;
-  border-bottom: 1px solid black;
+
   width: 100vw;
   display: flex;
   width: 100%;
@@ -226,6 +237,7 @@ a:hover {
 
 .logo-container {
   padding-right: 2vw;
+  display: flex;
 }
 
 .nav-bar {
@@ -255,7 +267,6 @@ a:hover {
 }
 
 .nav-item {
-  text-align: flex-start;
   margin-left: 15px;
   width: 100%;
   font-size: 100%;
@@ -347,6 +358,10 @@ a:hover {
   animation: scaleZ 600ms ease-in-out forwards;
 }
 
+.mob-nav {
+  display: none;
+}
+
 /* Navigation Styles End */
 
 /* Home Classes Start */
@@ -356,6 +371,7 @@ a:hover {
 .hero {
   position: relative;
   text-align: center;
+  z-index: 0;
 }
 
 .hero img {
@@ -676,3 +692,53 @@ a:hover {
 }
 
 /* Surgical Instructions & Facilities Classes End */
+
+/* media queries start */
+
+@media (max-width: 900px) {
+  .navigation {
+    display: none;
+  }
+
+  .mob-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .hamburger {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+  }
+
+  .close {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    width: 300px;
+    height: 200px;
+    list-style-type: none;
+    background-color: white;
+    padding-left: 5px;
+    justify-content: space-evenly;
+  }
+
+  .nav-item {
+    background-color: white;
+    height: 20px;
+  }
+
+  .NavBar .mob-nav .nav-container ul li a {
+    position: fixed;
+  }
+}
+
+/* media queries end */
